@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e6ecf0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+h1,
+li>span,
+li>legend {
+    /*Use the Cantana-One font*/
+    font-size: 60px;
+    -webkit-text-stroke: 3px black;
+    color: white;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.countdown {
+    background: url('./assets/img/study-hero.jpg') no-repeat 0 0/100% 100%;
+    height: 100vh;
+}
