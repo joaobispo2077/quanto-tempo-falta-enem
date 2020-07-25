@@ -39,6 +39,7 @@ setCookie("cookie", soma, 365);
 */
 
 function countdown() {
+
     var now = new Date();
 
     var eventDate = new Date(2021, 0, 17, 13, 0, 0, 0);
