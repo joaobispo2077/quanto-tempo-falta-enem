@@ -73,10 +73,10 @@ ul {
 
 @media (max-width: 768px) {
 	.count {
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 
 	li {
-		margin: 12px 0px;
+		margin: 24px 0px;
 	}
 }
