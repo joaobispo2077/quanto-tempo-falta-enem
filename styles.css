@@ -5,7 +5,7 @@
 }
 
 body {
-	height: 100%;
+	height: 100vh;
 	width: 100vw;
 
 	font-family: "Cantana One", Arial, "Roboto", sans-serif;
@@ -35,6 +35,12 @@ legend {
 	font-weight: bold;
 }
 
+p {
+	font-family: "Roboto";
+	color: #ffff;
+	font-size: 32px;
+}
+
 .count {
 	display: flex;
 	justify-content: space-around;
@@ -43,7 +49,7 @@ legend {
 .countdown {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	text-align: center;
 
 	background-size: cover;
@@ -66,12 +72,10 @@ li {
 	align-items: center;
 }
 
-h1,
-ul {
-	margin-top: 100px;
-}
-
 @media (max-width: 768px) {
+	body {
+		height: 100%;
+	}
 	.count {
 		flex-direction: column-reverse;
 	}
