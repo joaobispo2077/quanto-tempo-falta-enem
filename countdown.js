@@ -2,7 +2,7 @@ function countdown() {
 
 	var now = new Date();
 
-	var eventDate = new Date(2021, 10, 21, 13, 0, 0, 0);
+	var eventDate = new Date(2022, 11, 13, 13, 0, 0, 0);
 	console.log(`A data do enem é ${eventDate}`);
 
 	var currentTime = now.getTime();
