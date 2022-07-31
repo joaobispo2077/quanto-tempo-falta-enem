@@ -1,8 +1,18 @@
+const eventDate = new Date(2022, 10, 13, 13, 0, 0, 0);
+
+const cursiveDate = new Intl.DateTimeFormat("pt-BR", {
+	month: "long",
+	day: "numeric",
+	year: "numeric",
+}).format(eventDate);
+
+document.querySelector(".footer-container > p")
+	.textContent = `O próximo ENEM será ${cursiveDate}`;
+
 function countdown() {
 
 	var now = new Date();
 
-	var eventDate = new Date(2022, 11, 13, 13, 0, 0, 0);
 	console.log(`A data do enem é ${eventDate}`);
 
 	var currentTime = now.getTime();
