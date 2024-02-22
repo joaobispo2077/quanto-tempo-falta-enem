@@ -1,4 +1,4 @@
-const eventDate = new Date(2023, 10, 5, 13, 0, 0, 0);
+const eventDate = new Date(2024, 10, 10, 13, 0, 0, 0);
 
 const cursiveDate = new Intl.DateTimeFormat("pt-BR", {
 	month: "long",
