@@ -7,7 +7,7 @@ const cursiveDate = new Intl.DateTimeFormat("pt-BR", {
 }).format(eventDate);
 
 document.querySelector(".footer-container > p")
-	.textContent = `O próximo ENEM será ${cursiveDate}`;
+	.textContent = `O próximo ENEM será em ${cursiveDate}`;
 
 function countdown() {
 
