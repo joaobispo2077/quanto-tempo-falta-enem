@@ -37,9 +37,9 @@
 
 <br>
 
-<!-- <p align="center">
-  <img alt="happy Previw" src=".github/happy.png" width="100%">
-</p> -->
+<p align="center">
+  <img alt="Preview 1" src=".github/preview_1.png" width="50%" />
+</p>
 
 ## :rocket: Tecnologias
 
@@ -58,6 +58,11 @@ Esse projeto visa ajudar a estudantes se atentarem a quanto tempo falta para o E
 Clique no link para acessar o projeto e conferir o layout:
 
 - 📱 & 💻: [Quanto tempo falta para o ENEM?](https://quantotempofaltaproenem.vercel.app)
+
+<p align="center">
+  <img alt="Preview 1" src=".github/preview_1.png" width="40%" />
+  <img alt="Preview 2" src=".github/preview_2.png" width="40%" />
+</p>
 
 ## ♻️ Como contribuir
 
