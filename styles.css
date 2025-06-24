@@ -332,10 +332,14 @@ body {
   color: #0070cc;
   text-decoration: none;
   font-weight: 500;
+	text-decoration: underline;
 }
 
 .recommended-guides a:hover {
-  text-decoration: underline;
+  color: #005999;
+  text-shadow: 0 0 6px rgba(0, 112, 204, 0.4);
+  filter: brightness(1.1) contrast(1.05);
+  transition: all 0.3s ease;
 }
 
 
