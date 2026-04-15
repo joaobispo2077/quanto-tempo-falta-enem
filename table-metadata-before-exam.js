@@ -1,5 +1,5 @@
 window.tableMetadataBeforeExam = {
-	title: "Cronograma de Isenção - ENEM 2026",
+	title: "Cronograma de Inscrição - ENEM 2026",
 	description:
 		"O pedido de isenção da taxa do ENEM 2026 acontece entre 13 e 24 de abril de 2026. O edital oficial com as datas exatas da prova ainda não foi publicado.",
 	examForecast:
