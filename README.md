@@ -1,6 +1,7 @@
 <meta charset="utf-8">
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6c7086&height=120&section=header"/>
 <h1 align="center">
-    <img alt="Logo Happy" title="#Happy" src=".github/enem.png" width="200px" />
+    <img alt="Logo Enem" title="#Happy" src=".github/enem.png" width="200px" />
 </h1>
 
 <h4 align="center">

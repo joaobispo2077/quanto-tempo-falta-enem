@@ -75,6 +75,100 @@ body {
   font-size: 1rem;
 }
 
+.table-metadata-before-exam-section {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto 2rem auto;
+  padding: 0 1rem;
+}
+
+.table-metadata-before-exam-card {
+  background: linear-gradient(180deg, #f8fbff 0%, #ecf5ff 100%);
+  border: 1px solid #c7ddf7;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 75, 160, 0.12);
+  color: #0e1f35;
+  padding: 1.4rem;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.table-metadata-before-exam-card:hover {
+  transform: translateY(-4px);
+  border-color: #9bc2ef;
+  box-shadow: 0 14px 30px rgba(0, 75, 160, 0.2);
+}
+
+.table-metadata-before-exam-card:focus-visible {
+  outline: 3px solid #6aa5e8;
+  outline-offset: 2px;
+}
+
+.table-metadata-before-exam-card h2 {
+  color: #004ba0;
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.table-metadata-before-exam-card p {
+  color: #203753;
+  line-height: 1.5;
+  margin-bottom: 0.65rem;
+}
+
+.table-metadata-before-exam-meta {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.table-metadata-before-exam-table-wrapper {
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 1px solid #d4e4f8;
+}
+
+.table-metadata-before-exam-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  min-width: 560px;
+}
+
+.table-metadata-before-exam-table thead {
+  background-color: #004ba0;
+  color: #ffffff;
+}
+
+.table-metadata-before-exam-table th,
+.table-metadata-before-exam-table td {
+  text-align: left;
+  padding: 0.85rem 0.9rem;
+  border-bottom: 1px solid #e6eef9;
+}
+
+.table-metadata-before-exam-table tbody tr:nth-child(even) {
+  background-color: #f4f9ff;
+}
+
+.table-metadata-before-exam-table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.table-metadata-before-exam-table tbody tr:hover {
+  background-color: #e8f2ff;
+}
+
+.table-metadata-before-exam-note {
+  margin-top: 0.9rem;
+  font-size: 0.95rem;
+}
+
+.table-metadata-before-exam-note a {
+  color: #004ba0;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
 .study-techniques {
   max-width: 960px;
   width: 100%;
@@ -204,6 +298,18 @@ body {
 
   .study-techniques {
     padding: 1rem;
+  }
+
+  .table-metadata-before-exam-card {
+    padding: 1rem;
+  }
+
+  .table-metadata-before-exam-card h2 {
+    font-size: 1.15rem;
+  }
+
+  .table-metadata-before-exam-table {
+    min-width: 100%;
   }
 
   .technique {
