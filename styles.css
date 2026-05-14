@@ -121,6 +121,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.table-metadata-after-exam-table {
+  margin-top: 1rem;
+}
+
 .table-metadata-before-exam-table-wrapper {
   overflow-x: auto;
   border-radius: 10px;
