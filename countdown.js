@@ -1,4 +1,4 @@
-const eventDate = new Date(2025, 10, 9, 13, 0, 0, 0);
+const eventDate = new Date(2026, 10, 8, 13, 0, 0, 0);
 const tableMetadataBeforeExam = window.tableMetadataBeforeExam || null;
 
 const cursiveDate = new Intl.DateTimeFormat("pt-BR", {
