@@ -1,9 +1,9 @@
 window.tableMetadataBeforeExam = {
-	title: "Cronograma de Inscrição - ENEM 2026",
+	title: "Cronograma do ENEM 2026",
 	description:
-		"O pedido de isenção da taxa do ENEM 2026 acontece entre 13 e 24 de abril de 2026. O edital oficial com as datas exatas da prova ainda não foi publicado.",
+		"O pedido de isenção da taxa do ENEM 2026 acontece entre 13 e 24 de abril de 2026. As provas estão marcadas para 8 e 15 de novembro de 2026.",
 	examForecast:
-		"A previsão, com base no calendário recente, é de aplicação da prova em novembro de 2026.",
+		"1º dia (8/11): Redação, Linguagens e Ciências Humanas. 2º dia (15/11): Matemática e Ciências da Natureza.",
 	participantPageUrl: "https://enem.inep.gov.br/participante/",
 	registrationForecast:
 		"As inscrições costumam ocorrer entre maio e junho, segundo publicações de imprensa.",
@@ -33,6 +33,14 @@ window.tableMetadataBeforeExam = {
 		{
 			event: "Inscrições (previsão)",
 			date: "Entre maio e junho de 2026",
+		},
+		{
+			event: "Provas 1º dia: Redação, Linguagens (Espanhol/Inglês e Lingua Portuguesa), Humanas (História, Geografia, Filosofia, Sociologia, Literatura)",
+			date: "8 de novembro de 2026",
+		},
+		{
+			event: "Provas 2º dia: Matemática, Natureza (Biologia, Química, Física)",
+			date: "15 de novembro de 2026",
 		},
 	],
 };
