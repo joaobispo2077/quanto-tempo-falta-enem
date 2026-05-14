@@ -63,9 +63,12 @@ function renderTableMetadataBeforeExam(info) {
 				</tbody>
 			</table>
 		</div>
+		${info.examDuration
+			? `<p class="table-metadata-before-exam-meta table-metadata-after-exam-table">${info.examDuration}</p>`
+			: ""}
 		<p class="table-metadata-before-exam-note">${info.registrationForecast}</p>
 		<p class="table-metadata-before-exam-note">
-			Pedido na Página do Participante: <a href="${info.participantPageUrl}" target="_blank" rel="noopener noreferrer">acessar página</a>
+			Isenção e inscrição na Página do Participante: <a href="${info.participantPageUrl}" target="_blank" rel="noopener noreferrer">acessar página</a>
 		</p>
 		${sourcesMarkup ? `<p class="table-metadata-before-exam-note">Fontes: ${sourcesMarkup}</p>` : ""}
 	`;
@@ -74,7 +77,7 @@ function renderTableMetadataBeforeExam(info) {
 	metadataCard.setAttribute("tabindex", "0");
 	metadataCard.setAttribute(
 		"aria-label",
-		"Ir para a Página do Participante do ENEM"
+		"Ir para isenção e inscrição na Página do Participante do ENEM"
 	);
 
 	metadataCard.onclick = (event) => {
